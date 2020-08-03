@@ -4,4 +4,25 @@
 .title,
 h1 {
   color: #014267 !important;
+  position: relative;
+  left: -18px;
+  top: 2px;
+  transition: none 0s ease 0s;
+  cursor: move;
+}
+
+.spacer {
+  margin: 10px;
+}
+
+.centerText {
+  text-align: center;
+}
+
+.contact-bg {
+  background-image: url(./contactBg.jpg);
+}
+
+.whiteColor {
+  color: #ffffff !important;
 }

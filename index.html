@@ -100,7 +100,7 @@
             your favourite electronic brands. You can avail our services at your
             respective service stations. YOU ASK, WE MEND.
           </p>
-          <div class="flex justify-center">
+          <!-- <div class="flex justify-center">
             <button
               class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg"
             >
@@ -111,7 +111,7 @@
             >
               Download
             </button>
-          </div>
+          </div> -->
         </div>
         <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
           <img
@@ -532,7 +532,7 @@
       </div>
     </section>
     <!-- app download -->
-    <section class="text-gray-700 body-font">
+    <section class="text-gray-700 body-font contact-bg">
       <div
         class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center"
       >
@@ -540,46 +540,50 @@
           <img
             class="object-cover object-center rounded"
             alt="hero"
-            src="https://dummyimage.com/720x600"
+            src="./coin.jpg"
           />
         </div>
         <div
           class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center"
         >
           <h1
-            class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900"
+            class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900 whiteColor"
           >
             We are launching soon, Let's connect
           </h1>
-          <p class="mb-8 leading-relaxed">
+          <p class="text-sm mt-2 text-gray-500 mb-8 w-full">
             Subscribe us to make sure you don't miss our latest updates
           </p>
-          <div class="flex w-full md:justify-start justify-center">
-            <input
-              class="bg-gray-100 rounded mr-4 border border-gray-400 focus:outline-none focus:border-indigo-500 text-base px-4 lg:w-full xl:w-1/2 w-2/4"
-              placeholder="Email Address"
-              type="text"
-            />
-            <br />
-            <input
-              class="bg-gray-100 rounded mr-4 border border-gray-400 focus:outline-none focus:border-indigo-500 text-base px-4 lg:w-full xl:w-1/2 w-2/4"
-              placeholder="Name"
-              type="text"
-            />
-            <br />
-            <input
-              class="bg-gray-100 rounded mr-4 border border-gray-400 focus:outline-none focus:border-indigo-500 text-base px-4 lg:w-full xl:w-1/2 w-2/4"
-              placeholder="Phone"
-              type="text"
-            />
-            <button
-              class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg"
-            >
-              Subscribe
-            </button>
-            <br />
+          <div class="w-half md:justify-start justify-center">
+            <form action="https://formspree.io/xvowlqqq" method="POST">
+              <input
+                class="bg-gray-100 rounded mr-4 border border-gray-400 focus:outline-none focus:border-indigo-500 text-base px-4 lg:w-full xl:w-1/2 w-2/4 spacer"
+                placeholder="Email Address"
+                name="email"
+                type="text"
+              />
+
+              <input
+                class="bg-gray-100 rounded mr-4 border border-gray-400 focus:outline-none focus:border-indigo-500 text-base px-4 lg:w-full xl:w-1/2 w-2/4 spacer"
+                placeholder="Name"
+                name="name"
+                type="text"
+              />
+              <input
+                class="bg-gray-100 rounded mr-4 border border-gray-400 focus:outline-none focus:border-indigo-500 text-base px-4 lg:w-full xl:w-1/2 w-2/4 spacer"
+                placeholder="Phone"
+                type="text"
+                name="phone"
+              />
+              <br />
+              <button
+                type="submit"
+                class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg spacer centerText"
+              >
+                Subscribe
+              </button>
+            </form>
           </div>
-          <br />
 
           <p class="text-sm mt-2 text-gray-500 mb-8 w-full">
             Don't worry we also hate spam.
@@ -627,7 +631,7 @@
           </div> -->
 
           <a
-            class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg"
+            class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg spacer centerText"
             href="mailto:contact@mendassist.com"
             >Contact Us</a
           >
